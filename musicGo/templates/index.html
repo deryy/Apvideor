@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    {% load static %}
+    <script src="{% static 'js/jquery-1.9.1.min.js' %}"></script>
+    <script src="{% static 'js/index.js' %}"></script>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+    <link href="{% static 'images/favicon.ico' %}" rel="icon" type="image/x-icon" />
+    <title>首页</title>
+</head>
+<body>
+{% include 'header.html' %}
+<div>
+	<div class="main_title">
+        <p>视频生成，就是这么简单</p>
+        <p>可以上传您喜欢的图片和视频素材，系统会智能生成相对应的视频</p>
+    </div>
+	<div class="index_container">
+		
+		<div class="dress_style">
+			<p>请先选择您将要展示的服装风格：</p>
+			<select name='dress_style'>
+				<option>请选择</option>	
+				<option>摇滚</option>
+				<option>文艺</option>
+				<option>复古</option>
+				<option>OL通勤</option>
+				<option>新潮时尚</option>
+				<option>优雅</option>
+				<option>甜美</option>
+				<option>学院</option>
+				<!-- <option>维多利亚</option> -->
+				<!-- <option>欧美</option> -->
+				<!-- <option>梦幻</option> -->
+				<!-- <option>宫廷</option> -->
+				<!-- <option>性感</option> -->
+				<!-- <option>日系</option> -->
+				<!-- <option>森女</option> -->
+				<!-- <option>洛丽塔</option> -->
+				<!-- <option>波西米亚</option> -->
+				<!-- <option>知性</option> -->
+				<!-- <option>朋克</option> -->
+				<!-- <option>民族风</option> -->
+				<!-- <option>华丽</option> -->
+				<!-- <option>运动休闲</option> -->
+				<!-- <option>简约</option> -->
+				<!-- <option>中性</option> -->
+				<!-- <option>韩版</option> -->		
+				<!-- <option>乡村田园</option> -->
+				<!-- <option>英伦</option> -->
+				<!-- <option>街头</option> -->
+				<!-- <option>清新</option> -->			
+				<!-- <option>淑女</option> -->
+				<!-- <option>嘻哈</option> -->
+				<!-- <option>洛可可</option> -->
+				<!-- <option>波普</option> -->
+
+			</select>
+		</div>
+		<div class="btn_group">
+			
+
+			<!-- <button id="back_btn" class="mybutton">上一步</button> -->
+			<button id="next_btn" class="next_btn">下一步</button>
+		</div>
+		
+	</div>
+
+</div>
+{% include 'footer.html' %}
+</body>
+<html>

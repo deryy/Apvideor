@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    {% load static %}
+    <script src="{% static 'js/jquery-1.9.1.min.js' %}"></script>
+    <script src="{% static 'js/jquery.qrcode.min.js' %}"></script>
+    <script src="{% static 'js/audio_show.js' %}"></script> 
+    <script src="{% static 'js/music.js' %}"></script> 
+    <link href="{% static 'css/iconfont.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+    <link href="{% static 'images/favicon.ico' %}" rel="icon" type="image/x-icon" />
+
+    <title>配乐试听</title>
+    <style>
+        canvas{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -99;
+            background: none;
+        }
+
+        audio{
+            z-index: 2;
+            opacity: 0.5;
+            margin-bottom: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+{% include 'header.html' %}
+<div class="show"><canvas id="canvas"></canvas></div>
+
+<div>
+
+	<div class="music_container">
+        <div>           
+            <audio id="stream">
+            <source src="" />
+            </audio>
+            <div id='control' class='iconfont icon-stop'></div>
+        </div>
+        
+        <div class="change_op">
+            <div class="pre_music" id="change_pre">
+                <img src="{% static 'images/pre.png' %}">
+            </div>
+            <div class="next_music"  id="change_next">
+                <img src="{% static 'images/next.png' %}">
+            </div>
+        </div>
+        
+        
+        <div class="btn_group2">
+            <p id="music_name"></p>
+            <button id="generate_btn" class="generate_btn">生成视频</button>
+        </div>
+		
+        
+        
+	</div>
+	
+</div>
+{% include 'footer.html' %}
+
+</body>
+
+</html>

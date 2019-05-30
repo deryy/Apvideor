@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    {% load static %}
+    <script src="{% static 'js/jquery-1.9.1.min.js' %}"></script>
+    <script src="{% static 'js/jquery.qrcode.min.js' %}"></script>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+    <link href="{% static 'images/favicon.ico' %}" rel="icon" type="image/x-icon" />
+    <title>使用教程</title>
+</head>
+<body>
+{% include 'header.html' %}
+
+<div>
+    <!-- <div id="qrcode"></div> -->
+	<div class="tutorial_container">
+        <div class="process">
+            <img src="{% static 'images/tutorial.png' %}">
+        </div>
+        <div class="process_text">
+            <div>选择商品风格</div>
+            <div>&nbsp;上传素材</div>
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试听和选择配乐</div>
+            <div>视频浏览与下载</div>    
+        </div>
+        
+		
+ 
+        
+	</div>
+	
+</div>
+
+{% include 'footer.html' %}
+</body>
+
+</html>

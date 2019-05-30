@@ -1,0 +1,106 @@
+.imageUpload .box{
+    /*border: 1px dashed #DDDDDD;*/
+    height: calc(25vh);
+    min-width: 150px;
+    margin-top: 10px;
+    background:rgba(0,0,0,0.02);
+    overflow-y: scroll;
+}
+.imageUpload .box p{
+    line-height: 150px;
+    text-align: center;
+    color: gray;
+
+}
+.imageUpload .fileItem{
+    position: relative;
+    border: solid thin #DDDDDD;
+    width: 130px;
+    height: 155px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    vertical-align:top;
+}
+.imageUpload .fileItem .imgShow{
+    width: 130px;
+    height: 130px;
+    text-align: center;
+}
+
+.imageUpload .fileItem .imgShow img{
+    height: 100%;
+    border-radius: 5px;
+    max-width: 130px;
+}
+
+
+
+.imageUpload .fileItem .delete{
+    position: absolute;
+    top:0;
+    width: 130px;
+    height: 130px;
+    z-index: 99;
+    display: none;
+    line-height: 130px;
+}
+.imageUpload .fileItem .video{
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    background: url("../images/video.png");
+
+}
+.imageUpload .fileItem .imgShow:hover + .delete,.imageUpload .fileItem .delete:hover{
+    background: white;
+    opacity: 0.5;
+    display: block;
+}
+.imageUpload .fileItem .delete i{
+    font-size: 30px;
+    color:red;
+    cursor: pointer;
+}
+.imageUpload .fileItem .fileName{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    overflow: hidden;
+    clear: both;
+    padding: 2px 2px;
+}
+.imageUpload .uploadBts {
+    text-align: left;
+    height: 40px
+}
+.imageUpload .uploadBts>div{
+    float: left;
+    margin-right: 15px;
+}
+.imageUpload .uploadBts>div .selectFileBt,.imageUpload .uploadBts>div .uploadFileBt{
+    display: inline-block;
+    border: none;
+    background-color: #363636;
+    color: #f5f5f5;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 20px;
+    letter-spacing: 2px;
+}
+.imageUpload .uploadBts>div .selectFileBt:hover,.imageUpload .uploadBts>div .uploadFileBt:hover{
+    background-color: #71798e;
+}
+.imageUpload .uploadBts>div i{
+    font-size: 35px;
+    color: #0099FF;
+    cursor: pointer;
+
+}
+.fileName{
+    color:#72808f;
+}

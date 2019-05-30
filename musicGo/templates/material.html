@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    {% load static %}
+    <script src="{% static 'js/jquery-1.9.1.min.js' %}"></script>
+    <script src="{% static 'js/jquery.color.js' %}"></script>
+    <script src="{% static 'js/color-thief.js' %}"></script>
+    <script src="{% static 'js/imageUpload.js' %}"></script>
+    <script src="{% static 'js/material.js' %}"></script> 
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/iconfont.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/imageUpload.css' %}" rel="stylesheet" />
+    <link href="{% static 'images/favicon.ico' %}" rel="icon" type="image/x-icon" />
+    <title>素材上传</title>
+</head>
+<body>
+{% include 'header.html' %}
+<div>
+    <div class="main_title">
+        <p>视频生成，就是这么简单</p>
+        <p>可以上传您喜欢的图片和视频素材，下一步将为您推荐合适的配乐</p>
+    </div>
+	<div class="upload_container">
+		<div id="imageUpload" class="imageUpload">
+                  
+        </div>
+
+	</div>
+    
+</div>
+{% include 'footer.html' %}
+</body>
+<html>
