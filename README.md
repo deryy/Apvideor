@@ -11,5 +11,5 @@ Django1.8
 
 Result
 ----
-You can go here to see the videos created by Apvideor and some other detail informations.
+You can go [here](https://deryy.github.io/Apvideor_demo/page.html) to see the videos created by Apvideor and some other detail informations.
 
