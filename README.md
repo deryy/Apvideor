@@ -7,7 +7,34 @@ Video plays a great important role in online apparel sales, which is a vital too
 Environment
 ----
 * Python3.6
-* Django1.8
+  * Django1.8
+  * audioread==2.1.6
+  * certifi==2018.8.13
+  * chardet==3.0.4
+  * cycler==0.10.0
+  * decorator==4.3.0
+  * gunicorn==19.9.0
+  * idna==2.7
+  * imageio==2.3.0
+  * joblib==0.12.2
+  * kiwisolver==1.0.1
+  * librosa==0.6.2
+  * llvmlite==0.24.0
+  * matplotlib==2.2.3
+  * moviepy==0.2.3.5
+  * numba==0.39.0
+  * numpy==1.15.0
+  * Pillow==5.2.0
+  * pyparsing==2.2.0
+  * python-dateutil==2.7.3
+  * pytz==2018.5
+  * requests==2.19.1
+  * resampy==0.2.1
+  * scikit-learn==0.19.2
+  * scipy==1.1.0
+  * six==1.11.0
+  * tqdm==4.24.0
+  * urllib3==1.23
 
 Result
 ----
