@@ -6,8 +6,8 @@ Video plays a great important role in online apparel sales, which is a vital too
 
 Environment
 ----
-*Python3.6
-*Django1.8
+* Python3.6
+* Django1.8
 
 Result
 ----
