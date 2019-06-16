@@ -10,10 +10,9 @@ How to Use
 1. 首先要保证运行环境内存大于等于`8G`（moviepy剪辑视频图片需要消耗大量内存）；
 2. 下载ApVideor工程文件包(zip, scp, scp, unzip)并解压
 3. 基础环境配置：Python3.6
-4. 安装依赖包：
-  * 用requirements.txt安装pip包（包括Django、Librosa等）；
-  * 安装ffmpeg环境
-  
+4. 安装依赖包：<br>
+** 用requirements.txt安装pip包（包括Django、Librosa等）；<br>
+** 安装ffmpeg环境<br>
 5.在主目录文件夹下运行：
   python manage.py runserver 8000
 
