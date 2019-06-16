@@ -12,11 +12,15 @@ How to Use
 3. Programming Environment：
 >Python3.6
 4. Install dependency package：<br>
->make use of the requirements.txt to install the dependency(Django,Librosa,.etc): <br>
->>pip install -r requirements.txt<br>
->install ffmpeg<br>
-5. run：
->python manage.py runserver 8000
+* make use of the requirements.txt to install the dependency(Django,Librosa,.etc): <br>
+```
+pip install -r requirements.txt
+```
+* install ffmpeg<br>
+5. run：<br>
+```
+python manage.py runserver 8000
+```
 6. visit the website：
 >http://localhost:8000/musicGo
 
