@@ -17,11 +17,11 @@ How to Use
 pip install -r requirements.txt
 ```
 >* install ffmpeg<br>
-5. run：<br>
+5. Run：<br>
 ```
 python manage.py runserver 8000
 ```
-6. visit the website：
+6. Visit the website：
 >http://localhost:8000/musicGo
 
 Result
