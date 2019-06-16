@@ -16,6 +16,8 @@ How to Use
 >安装ffmpeg环境<br>
 5. 在主目录文件夹下运行：
 >python manage.py runserver 8000
+6. 访问网站：
+>http://localhost:8000/musicGo
 
 Result
 ----
