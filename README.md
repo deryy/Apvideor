@@ -7,16 +7,16 @@ Video plays a great important role in online apparel sales, which is a vital too
 
 How to Use
 ----
-1. 保证运行环境内存大于等于`8G`（moviepy剪辑视频图片需要消耗大量内存）；
-2. 下载ApVideor工程文件包(zip, scp, scp, unzip)并解压
-3. 基础环境配置：
+1. Ensure that the operating environment memory is larger than 8G (since the process of cliping video images by moviepy need to consume a lot of memory).
+2. Download the project package and extract it.
+3. Programming Environment：
 >Python3.6
-4. 安装依赖包：<br>
->用requirements.txt安装pip包（包括Django、Librosa等）；<br>
->安装ffmpeg环境<br>
-5. 在主目录文件夹下运行：
+4. Install dependency package：<br>
+>make use of the requirements.txt to install the dependency(Django,Librosa,.etc): pip install -r requirements.txt<br>
+>install ffmpeg<br>
+5. run：
 >python manage.py runserver 8000
-6. 访问网站：
+6. visit the website：
 >http://localhost:8000/musicGo
 
 Result
