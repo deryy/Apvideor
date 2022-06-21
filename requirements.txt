@@ -14,7 +14,7 @@ llvmlite==0.24.0
 matplotlib==2.2.3
 moviepy==0.2.3.5
 numba==0.39.0
-numpy==1.15.0
+numpy==1.22.0
 Pillow==5.2.0
 pyparsing==2.2.0
 python-dateutil==2.7.3
